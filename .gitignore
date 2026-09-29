@@ -1,0 +1,45 @@
+# --- Secrets & credentials (NEVER commit) ---
+*.pem
+*.key
+id_rsa*
+Charles-Tull-2609*
+.vault_pass
+vault_pass.txt
+*vault*.yml
+.env
+*.token
+do_token*
+inventory_secrets*
+
+# --- Ansible ---
+*.retry
+*.log
+fact_cache/
+.ansible/
+roles/downloaded/
+collections/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- Local run artifacts ---
+results.json
+*.tmp
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+._*
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
